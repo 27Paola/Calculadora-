@@ -1,4 +1,4 @@
-function numero(valor){
+function numeros(valor){
     document.getElementById('resultado').value += valor;
 }
 
@@ -15,8 +15,8 @@ function resetear(){
     document.getElementById("resultado").value = " ";
 }
 
-/*Modo dia - Modo noche*/ 
+/* modo dia-noche */ 
 function cambiarModo() { 
     var cuerpoweb = document.body; 
-    cuerpoweb.classList.switch("dark"); 
+    cuerpoweb.classList.toggle("dark"); 
 }
