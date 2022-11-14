@@ -8,12 +8,13 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <nav>
-    <label class="switch">
+    <label type="button" class="btn btn-dark switch">
         <input type="checkbox">
-        <span class="slider"></span>
-    </label>
+            <span class="slider" onclick="changeMode()"></span>
+    </label>    
     <div class="logo">
-        <img class="imagen" src="img/Logo.jpg.png" height="70px">
+        <img class="image" src="img/Logo.jpg.png" height="70px">
+    </div>
     </div>
 </nav>
 <body>
@@ -35,7 +36,7 @@
             <button class="botones" onclick="numeros(7)">7</button>
             <button class="botones" onclick="numeros(8)">8</button>
             <button class="botones" onclick="numeros(9)">9</button>
-            <button class="botones" onclick="numeros('÷')">÷</button>
+            <button class="botones" onclick="numeros('/')">÷</button>
         </div>
 
         <!--linea-3 CALCULADORA-->
@@ -64,4 +65,10 @@
     </div>
 </body>
 <script src="script.js"></script>
+<script type="text/javascript"> 
+    function changeMode() { 
+    var cuerpoweb = document.body; 
+    cuerpoweb.classList.toggle("dark"); 
+    }
+</script>
 </html>

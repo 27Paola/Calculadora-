@@ -14,3 +14,9 @@ function operacion(){
 function resetear(){
     document.getElementById("resultado").value = " ";
 }
+
+/* modo dia-noche */ 
+function cambiarModo() { 
+    var cuerpoweb = document.body; 
+    cuerpoweb.classList.toggle("dark"); 
+}
