@@ -29,13 +29,8 @@ bash
 ### Instalación 🔧
 
 - Version Desktop
-
-
 - Version Tablet
-
-
 - Version Movile
-
 
 ## Despliegue 📦
 
